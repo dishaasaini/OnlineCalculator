@@ -4,7 +4,7 @@ A simple and beautifully designed calculator built using **HTML, CSS, and JavaSc
 Clean UI + smooth functionality = you’ll love using it! ✨  
 
 ## 🚀 Live Demo  
-[Click here to try the Calculator](https://dishaasaini.github.io/OnlineCalculator/calculatorNew.html)  
+[Click here to try the Calculator](https://dishaasaini.github.io/OnlineCalculator/index.html)  
 
 ## 📂 Project Structure  
 - `calculatorNew.html` → Main HTML file  
@@ -15,4 +15,5 @@ Clean UI + smooth functionality = you’ll love using it! ✨
 - Responsive and modern design  
 - Supports basic arithmetic operations  
 - Built with HTML, CSS, and JavaScript only  
+
 
