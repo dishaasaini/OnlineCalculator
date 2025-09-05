@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Dark purple-blue gradient */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Headings */
+h1 {
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 12px rgba(255,255,255,0.6);
+}
+
+
+
+h2 {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Calculator box with glass effect */
+.calci {
+    width: 360px;
+    padding: 30px 20px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Display */
+#display {
+    width: 90%;
+    height: 70px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.95);
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;
+    padding: 10px;
+    text-align: right;
+    box-shadow: inset 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Buttons */
+.button, .operator {
+    width: 70px;
+    height: 70px;
+    margin: 8px;
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    background: rgba(255,255,255,0.85);
+    color: #111;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+.button:hover, .operator:hover {
+    transform: translateY(-4px);
+    background: #06bdf5;
+    color: #fff;
+    box-shadow: 4px 6px 15px rgba(0,0,0,0.8);
+}
+
+/* Zero button */
+#zero {
+    width: 150px;
+    border-radius: 35px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attractive Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <h1>Online Calculator</h1>
+    <h2>By:- Disha Saini</h2>
+
+    <form class="calci" action="#" method="POST">
+        <input type="text" id="display" readonly>
+        <br><br>
+
+        <input type="button" value="C" class="button" onclick="clearDisplay()">
+        <input type="button" value="<" class="button" onclick="deleteLast()">
+        <input type="button" value="00" class="button" onclick="appendValue('00')">
+        <input type="button" value="/" class="operator" onclick="appendValue('/')">
+        <br><br>
+
+        <input type="button" value="7" class="button" onclick="appendValue('7')">
+        <input type="button" value="8" class="button" onclick="appendValue('8')">
+        <input type="button" value="9" class="button" onclick="appendValue('9')">
+        <input type="button" value="*" class="operator" onclick="appendValue('*')">
+        <br><br>
+
+        <input type="button" value="4" class="button" onclick="appendValue('4')">
+        <input type="button" value="5" class="button" onclick="appendValue('5')">
+        <input type="button" value="6" class="button" onclick="appendValue('6')">
+        <input type="button" value="-" class="operator" onclick="appendValue('-')">
+        <br><br>
+
+        <input type="button" value="1" class="button" onclick="appendValue('1')">
+        <input type="button" value="2" class="button" onclick="appendValue('2')">
+        <input type="button" value="3" class="button" onclick="appendValue('3')">
+        <input type="button" value="+" class="operator" onclick="appendValue('+')">
+        <br><br>
+
+        <input type="button" value="0" class="button" id="zero" onclick="appendValue('0')">
+        <input type="button" value="." class="button" onclick="appendValue('.')">
+        <input type="button" value="=" class="operator" onclick="calculateResult()">
+    </form>
+</body>
+</html>
